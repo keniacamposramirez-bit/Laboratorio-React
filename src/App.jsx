@@ -3,14 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Header from './components/Header'
+import Lista from './components/Lista'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <h1>hola react</h1>
-    </div>
+    <>
+      <Header/>
+      <main>
+        <h2>Coleccion</h2>
+        <Lista/>
+      </main>
+    </>
   ) 
 }
 
